@@ -1,6 +1,6 @@
 {
   "name": "crawler-to-md",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A CLI tool to crawl websites, clone Git repos, or scan local directories and consolidate content into a single Markdown file.",
   "keywords": [
     "crawler",
@@ -19,7 +19,7 @@
     "context"
   ],
   "bin": {
-    "crawler-to-md": "./index.js"
+    "crawler-to-md": "./crawler-to-md.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -37,11 +37,11 @@
     "node": ">=14.0.0" 
   },
   "files": [
-    "index.js", 
+    "crawler-to-md.js", 
     "README.md",
     "LICENSE" 
   ],
-  "main": "index.js",
+  "main": "crawler-to-md.js",
   "type": "commonjs",
   "dependencies": {
     "axios": "^1.8.4",
