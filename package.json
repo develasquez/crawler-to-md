@@ -1,6 +1,6 @@
 {
   "name": "crawler-to-md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to crawl websites, clone Git repos, or scan local directories and consolidate content into a single Markdown file.",
   "keywords": [
     "crawler",
